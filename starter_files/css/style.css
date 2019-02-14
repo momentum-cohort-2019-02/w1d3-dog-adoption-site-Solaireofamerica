@@ -3,8 +3,86 @@
     padding: 0;
 } */
 
+body {
+    font-family: Verdana, sans-serif;
+}
 
+.main-header{
+    background-color: #053E73;
+    border-bottom: 2px solid #8ADDEE;
+    color: white;
+    padding: 2rem;
+}
+
+.main-content{
+    margin: 0 4rem 0 4rem;
+}
 
 .filterformat{
+    /* display: inline-flex; */
+    height: 8rem;
+    width: auto;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.header4{
+    margin: 0;
+}
+
+.filters {
+    display: flex;
+}
+
+.table-select {
+    background-color: #F0EDEE;
+    padding: 1rem;
+}
+.img-div {
+    width: 32%;
+    margin: 5px 5px 3rem 5px;
+    font-weight: bold;
+}
+
+.dog-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    font-weight: normal;
+    font-size: .82rem;
     display: inline-flex;
+    flex-wrap: wrap;
+    background-color: #8ADDEE;
+    border-radius: 15px;
+    border-width: 3rem;
+    padding: .4rem;
+    height: auto;
+    margin: 2px auto 2px auto;
+}
+
+ul {
+    padding: 0;
+    margin: 5px;
+}
+
+.dog-name {
+    font-size: 1.1rem;
+}
+
+.foot-img {
+    display:flex;
+    width: 100%;
+}
+
+.img-bot {
+    /* width: 32%; */
+    flex: 1 1 33%;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+
 }
