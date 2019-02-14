@@ -4,6 +4,7 @@
 } */
 
 body {
+    margin: 0;
     font-family: Verdana, sans-serif;
 }
 
@@ -85,4 +86,22 @@ ul {
     text-align: center;
     line-height: 250px;
 
+}
+
+.donate {
+    background: 
+    linear-gradient(rgba(171,171,242,.5),rgba(171, 171, 242, 0.5)),
+    url(../images/donate.jpg) center/cover;
+}
+
+.volunteer {
+    background: 
+    linear-gradient(rgba(171,171,242,.5),rgba(171, 171, 242, 0.5)),
+    url(../images/volunteer.jpg) center/cover;
+}
+
+.location {
+    background: 
+    linear-gradient(rgba(171,171,242,.5),rgba(171, 171, 242, 0.5)),
+    url(../images/location.png) center/cover;
 }
